@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         String clave = pass.getText().toString();
         if(user.equalsIgnoreCase("pi") && clave.equalsIgnoreCase("123")){
             mensaje.setText("Ingreso correcto");
+        }else{
+            mensaje.setText("Ingreso incorrecto");
         }
     }
-
 }
