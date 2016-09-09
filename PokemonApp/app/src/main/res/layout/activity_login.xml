@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/pokemon_front"
+        android:layout_weight="2"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese usuario"
+            android:layout_above="@+id/butIngresar"
+            android:id="@+id/edtUser"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <Button
+            android:id="@+id/butIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGRESAR"
+            android:background="@color/fondo"
+            android:textAlignment="center"
+            android:textColor="@color/texto"
+            android:layout_alignParentBottom="true"
+            android:drawableLeft="@drawable/ic_ingresar"
+            android:onClick="Ingresar"/>
+    </RelativeLayout>
+</LinearLayout>
