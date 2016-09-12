@@ -20,4 +20,5 @@ public class SplashScreenActivity extends AppCompatActivity {
             };
         }, DURACION_SPLASH);
     }
+    
 }
