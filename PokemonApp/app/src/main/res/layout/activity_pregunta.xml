@@ -6,7 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:src="@drawable/pokeball"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:id="@+id/imgPok"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -34,7 +35,9 @@
             android:layout_height="wrap_content"
             android:hint="Ingrese su respuesta"
             android:layout_below="@+id/txtPregunta"
-            android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:id="@+id/edtRespuesta"
+            android:singleLine="true"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,13 +48,17 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_send"
                 android:layout_weight="1"
-                android:background="@color/fondo"/>
+                android:background="@color/fondo"
+                android:id="@+id/butOk"
+                android:onClick="Validar"/>
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_next"
                 android:layout_weight="1"
-                android:background="@color/fondo"/>
+                android:background="@color/fondo"
+                android:id="@+id/butNext"
+                android:onClick="Siguiente"/>
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

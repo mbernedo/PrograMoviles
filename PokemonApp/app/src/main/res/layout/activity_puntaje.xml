@@ -27,8 +27,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="10pt"
-            android:text="123"
-            android:textColor="@color/texto"/>
+            android:text="0"
+            android:textColor="@color/texto"
+            android:id="@+id/txtPuntaje"/>
     </LinearLayout>
     <Button
         android:layout_width="match_parent"
@@ -36,6 +37,5 @@
         android:text="REINTENTAR"
         android:background="@color/fondo"
         android:textColor="@color/texto"
-        android:id="@+id/butReint"
         android:layout_marginTop="@dimen/activity_vertical_margin"/>
 </LinearLayout>
