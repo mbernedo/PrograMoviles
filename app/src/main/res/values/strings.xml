@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExamenParcial</string>
+    <string name="registro"><u>aquí</u></string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="mis_pokemones"><u>Mis pokemones</u></string>
+</resources>
