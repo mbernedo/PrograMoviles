@@ -71,6 +71,7 @@ public class PokemonesActivity extends AppCompatActivity {
                 if(listaPok.size()==0){
                     progress.dismiss();
                     Intent intent = new Intent(PokemonesActivity.this, DashboardActivity.class);
+                    intent.putExtra("username",username);
                     startActivity(intent);
                     Toast.makeText(PokemonesActivity.this, "Aún no tienes pokemones. Ve a capturar algunos", Toast.LENGTH_SHORT).show();
                 }else{
